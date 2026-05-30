@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Thruster Fire Glow (Cyan/Orange) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,66 L48,68 L54,85 L60,68 Z" />
+    
+    <!-- Thruster Fire Core (White) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,66 L50,67 L54,78 L58,67 Z" />
+        
+    <!-- Left Wing Shadow/Secondary plate (Slate dark) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M54,25 L54,66 L23,75 L48,58 Z" />
+
+    <!-- Right Wing Highlight plate (Metallic silver/white) -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M54,25 L85,75 L60,58 L54,66 Z" />
+        
+    <!-- Left Wing Panel Detail (Cyan highlight) -->
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M48,58 L23,75 L38,70 Z" />
+
+    <!-- Right Wing Panel Detail (Cyan highlight) -->
+    <path
+        android:fillColor="#0891B2"
+        android:pathData="M60,58 L85,75 L70,70 Z" />
+
+    <!-- Cockpit Fuselage Main Core (Solid Metallic) -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M54,25 L58,45 L58,66 L50,66 L50,45 Z" />
+
+    <!-- Cockpit Canopy Glass (Electric Cyan) -->
+    <path
+        android:fillColor="#00F5FF"
+        android:pathData="M54,34 L57,44 L54,52 L51,44 Z" />
+        
+</vector>

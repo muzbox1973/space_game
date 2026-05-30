@@ -1,0 +1,6 @@
+{
+  "name": "스페이스 서바이버 3D",
+  "description": "3D 원근 우주 저편에서 날아오는 유성과 별들을 피해 오래 살아남는 몰입형 SF 우주선 생존 게임입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

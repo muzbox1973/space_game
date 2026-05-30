@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Base Background Space Gradient -->
+    <path
+        android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#020617" />
+                <item android:offset="0.6" android:color="#0F172A" />
+                <item android:offset="1.0" android:color="#1E1B4B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Starfield/Orbital rings detail -->
+    <!-- Center circle (radar center) -->
+    <path
+        android:strokeColor="#1F38BDF8"
+        android:strokeWidth="0.8"
+        android:fillColor="#00000000"
+        android:pathData="M54,54 m-20,0 a20,20 0 1,1 40,0 a20,20 0 1,1 -40,0" />
+    <path
+        android:strokeColor="#1238BDF8"
+        android:strokeWidth="0.8"
+        android:fillColor="#00000000"
+        android:pathData="M54,54 m-35,0 a35,35 0 1,1 70,0 a35,35 0 1,1 -70,0" />
+
+    <!-- Stars -->
+    <path android:fillColor="#80FFFFFF" android:pathData="M15,20 L16,21 L15,22 L14,21 Z" />
+    <path android:fillColor="#40FFFFFF" android:pathData="M88,15 L89,16 L88,17 L87,16 Z" />
+    <path android:fillColor="#A0FFFFFF" android:pathData="M25,82 L26,83 L25,84 L24,83 Z" />
+    <path android:fillColor="#60FFFFFF" android:pathData="M92,76 L93,77 L92,78 L91,77 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M78,45 L78.5,45.5 L78,46 L77.5,45.5 Z" />
+    <path android:fillColor="#C0FFFFFF" android:pathData="M12,52 L12.5,52.5 L12,53 L11.5,52.5 Z" />
+</vector>
